@@ -73,7 +73,7 @@ function Hero() {
                                 <div className="flex items-center gap-6">
                                     {/* USER AVATARS */}
                                     <div className="flex -space-x-3">
-                                        {/* <Image
+                                        <Image
                                             src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
                                             alt="Jessica Davis"
                                             width={48}
@@ -107,7 +107,7 @@ function Hero() {
                                             width={48}
                                             height={48}
                                             className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
-                                        /> */}
+                                        />
                                     </div>
 
                                     {/* RATING AND STATS */}
