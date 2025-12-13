@@ -10,6 +10,7 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import UserSync from "@/components/UserSync";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -35,7 +36,7 @@ export default function RootLayout({
       <ClerkProvider>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
-        >
+        ><UserSync/>
           {children}
         </body>
       </ClerkProvider>
